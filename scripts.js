@@ -1,8 +1,7 @@
-//var userName = prompt("Hello! What is your name?");
-//alert("Welcome, " + userName);
+var add = function(num1, num2) {
+  return num1 + num2;
+};
+var num1 = parseInt(prompt("Enter a number:"));
+var num2 = parseInt(prompt("Enter another number:"));
 
-var userAge = prompt('What is your age?');
-var userName = prompt('What is your name?');
-var userQuest = prompt('What is your quest?');
-
-alert('Welcome ' + userName + "!" + " We love people who are " + userAge + " years old. Good luck as you " + userQuest + "!");
+alert(add(num1, num2));
